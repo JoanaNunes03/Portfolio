@@ -65,7 +65,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    height: 11090px;
+    height: 11000px;
 }
 
 .tudo::before {
@@ -77,7 +77,7 @@ body{
     width: 25%;
     background-color: #E6E6E6;
     z-index: -1;
-    height: 11000px;
+    height: 11090px;
 }
 
 .container {
