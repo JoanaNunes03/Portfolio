@@ -1,0 +1,459 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@font-face {
+    font-family: 'corbel';
+    src: url(../Corbel/CORBEL.TTF);
+    
+    font-family: 'swis';
+    src: url(../trada-sans/Trada.Sans/TradaSans-Bold.ttf);
+}
+
+.navbar{
+    grid-column: 1;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #E6E6E6;
+    color: black;
+}
+
+.nome{
+    flex-basis: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 70px;
+    margin-left: 100px;
+    font-family: 'corbel';
+}
+
+.menu{
+    flex-basis: 60%;
+    font-size: 8pt;
+    gap: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 70px;
+    margin-right: 100px;
+}
+
+.menu a{
+    font-weight: lighter;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+    font-family: 'corbel';
+}
+
+/* */
+
+.tudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 11000px;
+}
+
+.tudo::before {
+    content: "";
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 15%;
+    width: 25%;
+    background-color: #E6E6E6;
+    z-index: -1;
+    height: 11000px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 1080px;
+    padding-left: 100px;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+}
+
+.port {
+    font-size: 150px;
+    font-family: 'corbel';
+    font-weight: lighter;
+    letter-spacing: 15px;
+}
+
+.folio {
+    font-size: 300px;
+    font-family: 'swis';
+    font-weight: bold;
+    letter-spacing: 40px;
+}
+
+.name {
+    font-size: 100px;
+    font-family: 'corbel';
+    font-weight: lighter;
+    margin-top: 20px;
+    letter-spacing: 5px;
+}
+
+.container::before {
+    content: "";
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 10%;
+    width: 50%;
+}
+
+.folio::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    z-index: -1;
+}
+
+/* */
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 1080px;
+    padding-left: 100px;
+}
+
+.sobremim {
+    display: flex;
+    flex-direction: column;
+}
+
+.sobre {
+    font-size: 150px;
+    font-family: 'corbel';
+    font-weight: lighter;
+    letter-spacing: 15px;
+}
+
+.mim {
+    font-size: 300px;
+    font-family: 'swis';
+    font-weight: bold;
+    letter-spacing: 40px;
+}
+
+/*.contents {
+    font-size: 20px;
+    font-family: 'corbel';
+    font-weight: lighter;
+    margin-top: 20px;
+} */
+
+.container1::before {
+    content: "";
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 10%;
+    width: 50%;
+}
+
+.mim::before {
+    content: "";
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    z-index: -1;
+}
+
+.contents {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    font-size: 18px;
+    font-family: 'corbel';
+    line-height: 1.4;
+    margin-right: 50px;
+}
+
+.contents .coluna {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.contents p {
+    margin: 20px 0;
+}
+
+/* */
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    gap: 400px;
+    height: 1080px;
+    padding-left: 100px;
+}
+
+.PROJETO {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.projeto {
+    font-size: 150px;
+    font-family: 'corbel';
+    font-weight: lighter;
+    letter-spacing: 15px;
+}
+
+.numero {
+    font-size: 300px;
+    font-family: 'swis';
+    font-weight: bold;
+    letter-spacing: 40px;
+}
+
+.Telemovel {
+    width: 600px;
+    height: auto;
+}
+
+.app {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    gap: 10px;
+}
+
+.app img {
+    width: 600px;
+    height: auto;
+}
+
+/* */
+
+.container3 {
+    padding-left: 100px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 100px;
+}
+
+.conceito {
+    font-size: 150px;
+    font-family: 'corbel';
+    font-weight: lighter;
+    letter-spacing: 15px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    gap: 300px;
+}
+
+.texto {
+    padding: 20px;
+    flex: 1;
+    font-size: 18px;
+    font-family: 'corbel';
+    line-height: 1.6;
+}
+
+.texto p {
+    text-align: justify;
+    font-size: 18px;
+}
+
+.texto strong {
+    font-size: 20px;
+}
+
+.imagem.gide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.imagem-gide img {
+    width: 600px;
+    height: auto;
+    margin-right: 250px;
+    margin-top: -90px;
+}
+
+/* */
+
+.container4 {
+    display: flex;
+    flex-direction: row;
+    gap: 400px;
+    height: 1080px;
+    padding-left: 100px;
+}
+
+.Copos {
+    width: 600px;
+    height: auto;
+}
+
+.BR3 {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    gap: 100px;
+}
+
+.BR3 img {
+    width: 600px;
+    height: auto;
+}
+
+/* */
+
+.content35 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    gap: 350px;
+}
+
+.quatroBRS img {
+    width: 600px;
+    height: auto;
+    margin-top: -220px;
+    margin-right: 200px;
+}
+
+/* */
+
+.container6 {
+    display: flex;
+    flex-direction: row;
+    gap: 400px;
+    height: 1080px;
+    padding-left: 100px;
+    margin-top: 150px;
+}
+
+
+.Happy {
+    width: 600px;
+    height: auto;
+    margin-top: 100px;
+    gap: 70px;
+}
+
+.BR4 {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    gap: 70px;
+
+}
+
+.BR4 img {
+    width: 600px;
+    height: auto;
+    margin-right: 200px;
+}
+
+/* */
+
+.container7 {
+    display: flex;
+    flex-direction: row;
+    gap: 400px;
+    height: 1080px;
+    padding-left: 100px;
+}
+
+.PROJETO7 {
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+}
+
+.video {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    margin-top: 250px;
+}
+
+.video img {
+    width: 800px;
+    height: auto;
+    margin-top: 100px;
+}
+
+/* */
+
+.content7 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    gap: 350px;
+}
+
+.VCV img {
+    width: 535px;
+    height: auto;
+    margin-top: 350px;
+    margin-right: 500px;
+}
+
+.VSV {
+    width: 600px;
+    height: auto; 
+    margin-top: 50px; 
+}
+
+/* */
+
+.pc {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    gap: 10px;
+}
+
+.pc img {
+    width: 450px;
+    height: auto;
+}
